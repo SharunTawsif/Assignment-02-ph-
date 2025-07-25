@@ -540,10 +540,9 @@
         
     }
     .banner-image{
-        max-width: 700px;
-        width: 700px;
+   
         height: auto;
-        padding-left: 10%;
+        padding-left: 17%;
     }
     .banner-writting{
         
@@ -575,6 +574,7 @@
      .plants{
         
         margin-left: 100px;
+        margin-top: 50px;
      }
      .plants-heading{
         font-size: 28px;
@@ -669,7 +669,7 @@
 
 
     .flowerplant-image{
-        height: 400px;
+        height: 450px;
         width: 420px;
 
     }
