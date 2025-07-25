@@ -86,7 +86,7 @@
 /* banner style start */
 .banner{
     display: flex;
-    gap: 300px;
+    gap: 580px;
     margin-top: 120px;
 }
 
@@ -104,11 +104,59 @@
 
 
 
+/* our plants style start */
+
+.plants{
+    /* border: 1px solid black; */
+    align-items: center;
+    text-align: center;
+    max-width: 700px;
+    margin-top: 150px;
+}
+.plants-heading{
+    font-size: 3rem;
+}
+.plants-subheading{
+    font-size: 1.25rem;
+    margin-top: -30px;
+}
+
+
+
+
+/* our plants style end */
 
 
 
 
 
+
+/* card style start */
+.card-container{
+    
+}
+.card{
+    
+    /* border: 1px solid black; */
+    width: 270px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px 20px;
+    margin-left: -180px;
+}
+.card-subhead{
+    font-weight: bold;
+}
+.card-button{
+    width: 100%;
+    height: 50px;
+    background-color: rgba(233, 90, 8, 1);
+    color: white;
+    border: none;
+}
+
+
+/* card style end */
 
 
 
@@ -196,6 +244,61 @@
     }
     
      /* banner style end */
+
+
+
+    /* plant style start */
+   
+
+     .plants{
+        margin-left: 100px;
+     }
+     .plants-heading{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    }
+    .plants-subheading{
+        font-size: 15px;
+        margin-top: -30px;
+        text-align: center;
+        width: 400px;
+        font-weight: 400;
+    }
+    /* plant style end */
+
+
+
+
+
+
+
+
+
+
+
+
+  /* card style start */
+
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: -15px;
+        gap: 30px 20px;
+    }
+
+    .card-1{
+        /* border: 1px solid black; */
+        height: 340px;
+        width: 200px;
+        margin-top: 30px;
+    }
+    .image-1{
+        width: 100%;
+    }
+    
+
+     /* card style end */
 
 
 }
