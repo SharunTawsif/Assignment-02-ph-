@@ -333,6 +333,71 @@
 
 
 
+
+
+
+/* subscribe styling start */
+
+.subscribe-section {
+  background-image: url('../assets/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  width: 2000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  margin-top: 130px;
+}
+
+.subscribe-overlay {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.subscribe-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Noto Serif", serif;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.email-input {
+  padding: 15px;
+  font-size: 16px;
+  flex: 1;
+  border: none;
+  border-radius: 4px 0 0 4px;
+  width: 600px;
+}
+
+.subscribe-button {
+  padding: 15px 25px;
+  font-size: 16px;
+  background-color: #E95A08;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+}
+
+
+/* subscribe styling end */
+
+
+
+
+
+
 /*  ********************************************* */
 /* for mobile */
 @media screen and (max-width: 576px) {
@@ -345,7 +410,7 @@
         /* border: 1px solid black; */
        display: flex;
        justify-items: center;
-       width: 470px;
+       width: 200px;
        /* align-items: center; */
        margin-left: 0px;
     }
@@ -355,6 +420,7 @@
         width: 70px;
         margin-left: 1rem;
         margin-top: 1rem;
+        
     }
     .nav-logo{
         
@@ -382,7 +448,7 @@
 
     /* common style */
     .main-class{
-        max-width: 576px;
+        max-width: 476px;
         margin: 0 auto;
         justify-items: center;
         /* border: 1px solid black; */
@@ -398,7 +464,7 @@
     }
     .banner-writting{
         
-        border: 1px solid black;
+      
         height: 100%;
         width: 430px;
         margin-top: 20px;
@@ -569,6 +635,41 @@
 
 
   /* latest deals styling end */
+
+
+
+
+
+/* subscribe section styling start */
+
+.subscribe-section {
+    height: auto;
+    padding: 2rem 1rem;
+    /* max-width: 400px; */
+    width: 600px;
+  }
+
+  .subscribe-title {
+    font-size: 20px;
+  }
+
+  .subscribe-form {
+    max-width: 100%; /* fills screen on mobile */
+  }
+
+  .email-input {
+    font-size: 14px;
+    padding: 15px;
+    width: 200px;
+  }
+
+  .subscribe-button {
+    font-size: 14px;
+    padding: 0 16px;
+  }
+/* subscribe section styling end */
+
+
 
 
 }
