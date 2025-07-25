@@ -96,22 +96,28 @@
 
 
 /* banner style start */
-.banner{
+.banner {
     display: flex;
-    gap: 340px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
     margin-top: 120px;
+    padding: 0 20px;
 }
 
-.banner-heading{
+.banner-heading {
     font-size: 65px;
     font-weight: 700;
 }
-.banner-subheading{
+.banner-subheading {
     font-size: 22px;
 }
-.banner-writting{
-    height: 300px;
+.banner-writting {
+    max-width: 100%;
     width: 570px;
+    height: auto;
 }
 /* banner style end */
 
@@ -518,8 +524,8 @@
 
     /* common style */
     .main-class{
-        max-width: 476px;
-        margin: 0 auto;
+        max-width: 576px;
+
         justify-items: center;
         /* border: 1px solid black; */
     }
@@ -531,6 +537,13 @@
         flex-direction: column-reverse;
         gap: 5px;
         margin-top: 10px;
+        
+    }
+    .banner-image{
+        max-width: 700px;
+        width: 700px;
+        height: auto;
+        padding-left: 10%;
     }
     .banner-writting{
         
@@ -564,9 +577,11 @@
         margin-left: 100px;
      }
      .plants-heading{
-    font-size: 28px;
-    font-weight: bold;
-    margin-bottom: 40px;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 40px;
+        margin-left: 50px;
+        
     }
     .plants-subheading{
         font-size: 10px;
@@ -574,6 +589,8 @@
         text-align: center;
         width: 400px;
         font-weight: 400;
+        margin-left: 50px;
+        
     }
     /* plant style end */
 
@@ -597,6 +614,7 @@
         margin-left: -55px;
         gap: 30px 20px;
         text-align: center;
+        
     }
 
     .card-1{
@@ -604,6 +622,7 @@
         height: 340px;
         width: 200px;
         margin-top: 30px;
+        padding: 0 1.25rem;
         
     }
     .image-1{
@@ -631,7 +650,7 @@
         margin-top: 100px;
         gap: 50px;
      
-        width: 420px;
+        width: 350px;
         height: auto;
         margin-left: 100px;
     }
@@ -674,20 +693,24 @@
 
   .ldhead {
     font-size: 28px;
+    margin-left: 0px;
   }
 
   .ldsubhead {
     font-size: 14px;
     width: 100%;
     margin: auto;
+    padding: 0 0rem;
+    margin-left: 70px;
+    text-align: center;
   }
 
   .ldimages {
     flex-direction: column;
     width: 100%;
-    height: auto;
+    height: 100%;
     gap: 20px;
-    padding: 0 1rem;
+    padding: 0 5rem;
   }
 
   .imgsec1, .imgsec2 {
@@ -701,6 +724,7 @@
     object-fit: cover;
     border-radius: 16px;
     position: relative;
+    
   }
 
 
@@ -714,17 +738,19 @@
 
 .subscribe-section {
     height: auto;
-    padding: 2rem 1rem;
+    padding: 4rem 5rem;
     /* max-width: 400px; */
     width: 600px;
   }
 
   .subscribe-title {
     font-size: 20px;
+    margin-left: 100px;
   }
 
   .subscribe-form {
-    max-width: 100%; /* fills screen on mobile */
+    max-width: 100%; 
+    padding: 1rem 3rem;
   }
 
   .email-input {
